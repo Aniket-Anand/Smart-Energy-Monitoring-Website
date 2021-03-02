@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description" content="jSide Menu is a free jQuery menu plugin that helps you create side vertical navigation menu with dropdowns, fully responsive and customizable." />
+  <meta property="og:title" content="jSide Menu - jQuery Plugin" />
+  <meta property="og:image" content="https://codehimblog.github.io/jquery-jside-menu/img/preview.jpg" />
+
+ <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+  <!--Material Design Iconic Font-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+   <!--jSide Menu CSS-->
+  <link rel="stylesheet" href="css/jside-menu.css">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+   
+
+  <!-- CSS-Style -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+
+  <!--DEMO ONLY FILES-->
+  <!--Demo CSS-->
+  <link rel="stylesheet" href="docs/demo-only.css" />
+  <script src="docs/demo-only.js"></script>
+  
+  
+
+
+  <!-- Font-Awesome -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/c4834d6751.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous"> -->
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- JavaScript -->
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+<body style="background-color:#F2F4F8;">
+
+
+<!-- Start jside Menu -->
+<menu class="menubar">
+  <menuitem>
+  <button class="menu-trigger"> <i class="material-icons">menu</i></button>
+  </menuitem>
+
+   <menuitem class="logo" style="background-color: #0d304e;">
+    <h1>Smart Energy Monitoring</h1>
+    </menuitem>
+</menu>
+<!-- <div class="menu-body visibility"> -->
+
+  <div class="menu-head">
+  
+    <div class="profile-pic">     
+      <img src="img/VIT.PNG" style="
+      padding-bottom: 0px;
+      padding-top: 10px;
+  ">
+          </div>
+  </div> <!--//menu-head-->
+
+
+<nav class="menu-container">
+<ul class="menu-items">
+<li><a href="#Home"><i class="fas fa-home"></i>  Home</a></li>
+
+<li class="has-sub"> <span class="dropdown-heading"> <i class="fas fa-th"></i> Power House</span> 
+    <ul style="padding-left: 0px;" 0px;"=""> 
+      <li class="has-sub"> <span class="dropdown-heading"> <i class="fas fa-th"></i> Main Power House</span>
+        <ul style="display: block;padding-left: 0px;">
+          <li> <a href="SJT Feeder.html"><i class="fas fa-th"></i> SJT Feeder</a></li>
+          <li><a href="TT Feeder.html"><i class="fas fa-th"></i> TT Feeder</a></li>
+          <li><a href="Hostel Feeder.html"><i class="fas fa-th"></i> Hostel Feeder</a></li>
+          <li><a href="VSPARC Feeder.html"><i class="fas fa-th"></i> VSPARC Feeder</a></li>
+        </ul>
+      </li>
+
+      
+      <li><a href="Graphs I.html" style="padding-left: 10px;"><i class="fas fa-circle" aria-hidden="true"></i> Graphs I</a></li>
+
+      <li class="has-sub"> <span class="dropdown-heading"> <i class="fas fa-th"></i> SJT Power House</span>
+        <ul style="display: block;padding-left: 0px;">
+          <li> <a href="SJT Power House - Transformer 1.html"><i class="fas fa-th"></i> SJT Transformer 1</a></li>
+          <li><a href="SJT Power House - Transformer 2.html"><i class="fas fa-th"></i> SJT Transformer 2</a></li>
+          <li><a href="SJT Power House - Transformer 3.html"><i class="fas fa-th"></i> SJT Transformer 3</a></li>
+        </ul>
+      </li>
+
+      <li class="has-sub"> <span class="dropdown-heading"> <i class="fas fa-th"></i> TT Power House</span>
+        <ul style="display: block;padding-left: 0px;">
+          <li> <a href="TT Power House - Transformer 1.html"><i class="fas fa-th"></i> Transformer 1</a></li>
+          <li> <a href="TT Power House - Transformer 2.html"><i class="fas fa-th"></i> Transformer 2</a></li>
+        </ul>
+      </li>
+
+      <li class="has-sub"> <span class="dropdown-heading"> <i class="fas fa-th"></i> MB Power House</span>
+        <ul style="display: block;padding-left: 0px;">
+          <li> <a href="MB Power House - Transformer 1.html"><i class="fas fa-th"></i> Transformer 1</a></li>
+          <li> <a href="MB Power House - Transformer 2.html"><i class="fas fa-th"></i> Transformer 2</a></li>
+        </ul>
+      </li>
+
+      <li class="has-sub"> <span class="dropdown-heading"> <i class="fas fa-th"></i> Hostel Power House I</span>
+        <ul style="display: block;padding-left: 0px;">
+          <li> <a href="Hostel Power House I - Transformer 1.html"><i class="fas fa-th"></i> Transformer 1</a></li>
+          <li> <a href="Hostel Power House I - Transformer 2.html"><i class="fas fa-th"></i> Transformer 2</a></li>
+          <li> <a href="Hostel Power House I - Transformer 3.html"><i class="fas fa-th"></i> Transformer 3</a></li>
+          <li> <a href="Hostel Power House I - Transformer 4.html"><i class="fas fa-th"></i> Transformer 4</a></li>
+        </ul>
+      </li>
+
+      <li class="has-sub"> <span class="dropdown-heading"> <i class="fas fa-th"></i> Hostel Power House II</span>
+        <ul style="display: block;padding-left: 0px;">
+          <li> <a href="Hostel Power House II - Transformer 1.html"><i class="fas fa-th"></i> Transformer 1</a></li>
+          <li> <a href="Hostel Power House II - Transformer 2.html"><i class="fas fa-th"></i> Transformer 2</a></li>
+        </ul>
+      </li>
+
+      <li class="has-sub"> <span class="dropdown-heading"> <i class="fas fa-th"></i> Hostel Power House III</span>
+        <ul style="display: block;padding-left: 0px;">
+          <li> <a href="Hostel Power House III - Transformer 1.html"><i class="fas fa-th"></i> Transformer 1</a></li>
+          <li> <a href="Hostel Power House III - Transformer 2.html"><i class="fas fa-th"></i> Transformer 2</a></li>
+        </ul>
+      </li>
+
+      <li><a href="Graphs II.html" style="padding-left: 10px;"><i class="fas fa-circle" aria-hidden="true"></i> Graphs II</a></li>
+
+      <li><a href="Project Team.html" style="padding-left: 10px;"><i class="fas fa-th" aria-hidden="true"></i> Project Team</a></li>
+     
+    </ul> 
+</li>
+</ul>
+</nav>
+<!-- </div> -->
+<!--End jSide Menu-->
+
+
+<!--Introduction and Demo Only -->
+<header class="intro">
+</header>
+
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!--jSide Menu Js-->
+<script src="js/jquery.jside.menu.js"></script>
+<script>
+$(function(){
+$(".menu-container").jSideMenu({
+   jSidePosition: "position-left", //possible options position-left or position-right
+   jSideSticky: true, // menubar will be fixed on top, false to set static
+   jSideSkin: "default-skin", // to apply custom skin, just put its name in this string
+    });
+}); 
+</script>
+  
+  
+  
+
+
+  <div class="col-sm-6">
+    <h4 class="m-b-xs text-black">SJT Transformer 2</h4>
+    <small>
+
+    <!--name-->
+    
+    <i class="fa fa-map-marker fa-lg text-primary"></i> VIT, Vellore</small>
+
+  </div>
+
+  <br>
+  
+
+      <div class="top">
+        <div class="total-energy">
+          <b> Total Energy in KWH</b>
+        </div>
+        <br>
+        <div class="h3 font-bold" style="margin-bottom: 0px;">500054.00</div>
+        <p class="text-muted">Units</p>
+      </div>
+
+  <br>
+
+  
+  <div class="container-fluid" id="mycontainer">
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="top">
+            <div class="red-card">
+              <b> Current I<sub>R</sub> in Amps</b>
+            </div>
+            <br>
+            <div class="parameter">
+              <div class="h4 font-bold" style="margin-bottom: 0px;">0.00</div>
+              <p class="text-muted">I-R</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-sm-4">
+          <div class="top">
+            <div class="red-card">
+              <b> Phase Voltage V<sub>RN</sub> in Volts</b>
+            </div>
+            <br>
+            <div class="parameter">
+              <div class="h4 font-bold" style="margin-bottom: 0px;">0.00</div>
+              <p class="text-muted">VRN</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="top">
+            <div class="purple-card">
+              <b> 3 Ph Real Power</b><sub></sub>
+            </div>
+            <br>
+            <div class="parameter">
+              <div class="h4 font-bold" style="margin-bottom: 0px;">0.00</div>
+              <p class="text-muted">W</p>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+
+      <br>
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="top">
+            <div class="yellow-card">
+              <b> Current I<sub>Y</sub> in Amps</b>
+            </div>
+            <br>
+            <div class="parameter">
+              <div class="h4 font-bold" style="margin-bottom: 0px;">0.00</div>
+              <p class="text-muted">I-Y</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-sm-4">
+          <div class="top">
+            <div class="yellow-card">
+              <b> Phase Voltage V<sub>YN</sub> in Volts</b>
+            </div>
+            <br>
+            <div class="parameter">
+              <div class="h4 font-bold" style="margin-bottom: 0px;">0.00</div>
+              <p class="text-muted">VYN</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="top">
+            <div class="purple-card">
+              <b> 3 Ph Reactive Power </b>
+            </div>
+            <br>
+            <div class="parameter">
+              <div class="h4 font-bold" style="margin-bottom: 0px;">0.00</div>
+              <p class="text-muted">VAR</p>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+
+
+      <br>
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="top">
+            <div class="blue-card">
+              <b> Current I<sub>B</sub> in Amps</b>
+            </div>
+            <br>
+            <div class="parameter">
+              <div class="h4 font-bold" style="margin-bottom: 0px;">0.00</div>
+              <p class="text-muted">I-B</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-sm-4">
+          <div class="top">
+            <div class="blue-card">
+              <b> Phase Voltage V<sub>BN</sub> in Volts</b>
+            </div>
+            <br>
+            <div class="parameter">
+              <div class="h4 font-bold" style="margin-bottom: 0px;">0.00</div>
+              <p class="text-muted">VBN</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="top">
+            <div class="purple-card">
+              <b> Power Factor </b><sub></sub>
+            </div>
+            <br>
+            <div class="parameter">
+              <div class="h4 font-bold" style="margin-bottom: 0px;">0.00</div>
+              <p class="text-muted">lag(+)/lead(-)</p>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+      
+    </div>
+
+  </div>
+
+
+  
+
+</body>
+</html>

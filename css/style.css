@@ -1,0 +1,222 @@
+body{
+    background-color: #F2F4F8;
+    text-align: center;
+
+}
+
+.top{
+    margin: auto;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.total-energy{
+    background-color: #800080;
+    padding: 10px;
+}
+
+.red-card{
+    background-color: red;
+    padding: 8px;
+    
+
+}
+
+.yellow-card{
+    background-color: yellow;
+    padding: 8px;
+    
+}
+
+.blue-card{
+    background-color: blue;
+    padding: 8px;
+    
+}
+
+.purple-card{
+    background-color: #800080;
+    padding: 8px;
+}
+
+.parameter{
+    padding: 2px;
+    padding-bottom: 1px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 20px;
+    margin: 10px;
+     /* Should be removed. Only for demonstration */
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+  
+  
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+
+  h1{
+    text-align: center;
+    }
+    p {text-align: center;}
+    div {text-align: center;}
+
+    div.padd {
+        padding: 15px;
+    }
+
+#mycontainer{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+
+
+.sidenav {
+    
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: left .3s ease;
+  }
+
+  /* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  /* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+
+  /* Main content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    /* font-size: 20px; Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: #1AAE88;
+    color: white;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #07080B;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  /* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 15px;}
+  }
+
+
+  
+
+
+  .nabMenuBar{
+    color: #FE0A52 !important;
+    font-size: 24px !important;
+}
+.nav-menu-item{
+    text-decoration: none;
+    color: white;
+}
+.nav-menu-item:hover{
+    text-decoration: none;
+    color: white;
+    border-left: 5px solid white;
+    transition: 0.1s;
+}
+.sideNavOpen{
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 10;
+    overflow-x: hidden;
+    padding-left: 10px;
+    padding-top: 20px;
+    transition: 0.1s;
+    background-color: #FE0A52;
+}
+.sideNavClose{
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 10;
+    overflow-x: hidden;
+    padding-left: 10px;
+    padding-top: 20px;
+    transition: 0.1s;
+    background-color: #FE0A52;
+}
+.ContentOverlay{
+    display: block;
+    position: fixed;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: 7;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+}
+.ContentOverlayClose{
+   display: none;
+}
+.Content{
+    margin-left: 60px;
+    margin-top: 60px;
+    z-index: 5;
+}
+
+
+
